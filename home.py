@@ -11,10 +11,11 @@ def home():
 	<html>
 	<head>
 		<title>home page</title>
-	</head>
-		<h1>Welcome '''+name+'''!</h1>	
-	<body>
+		<h1>Welcome '''+name+'''!</h1>
+	</head>	
 		<a href=www.google.com>not google</a>
+	<body>
+
 	<ul>
 		<li>'''+city_names[0]+'''</li>
 		<li>'''+city_names[1]+'''</li>
