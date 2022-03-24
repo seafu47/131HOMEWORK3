@@ -12,8 +12,8 @@ def home():
 	<head>
 		<title>home page</title>
 		<h1>Welcome '''+name+'''!</h1>
-	</head>	
 		<a href=www.google.com>not google</a>
+	</head>	
 	<body>
 
 	<ul>
