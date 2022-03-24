@@ -14,7 +14,7 @@ def home():
 	</head>
 	<body>
 		<h1>Welcome '''+name+'''!</h1>		
-		<a href=www.google.com> not google</a>
+		<a href=www.google.com>not google</a>
 	<ul>
 		<li>'''+city_names[0]+'''</li>
 		<li>'''+city_names[1]+'''</li>
