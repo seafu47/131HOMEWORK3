@@ -2,11 +2,11 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
+name = "Lisa"
+city_names = ["Paris", "London", "Rome", "Tahiti"]
 
 @app.route("/")
 def home():
-	name = "Lisa"
-	city_names = ["Paris", "London", "Rome", "Tahiti"]
 	return '''
 	<html>
 	<head>
