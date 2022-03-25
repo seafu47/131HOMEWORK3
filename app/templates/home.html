@@ -1,0 +1,32 @@
+<html>
+	<head>
+	{% with city = get_flashed_messages() %}
+		{% if city %}
+	<ul>
+			{% for i in city%}
+				<li>{{i}}</li>
+			{% endfor %}
+	</ul>
+		{% endif %}
+	{% endwith %}
+		
+		<h1>Welcome {{name}}!</h1>
+	</head>	
+	<p><a href="www.google.com">not google</a></p>
+	
+	<body>
+	<ul>
+	
+	{% for city in cities %}
+		<li>{{city}}</li>
+	{% endfor%}
+	</ul>
+	
+	<form method="POST">
+	<p>City Name</p>
+	<p><input id ="cityname" name = "cityname"></p>
+	<p><input type= "submit" value = "Submit"></p>
+	</form>
+	
+	</body>
+</html>
