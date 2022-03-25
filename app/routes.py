@@ -1,4 +1,4 @@
-from app import myapp_obj
+from app import myapp
 from flask import redirect, url_for, render_template, request, flash
 
 name = "Lisa"
@@ -7,7 +7,7 @@ myapp_obj.config['SECRET_KEY'] = "1357"
 
 
 
-@myapp_obj.route("/", methods=["GET", "POST"])
+@myapp.route("/", methods=["GET", "POST"])
 def home():
 	if request.method == "POST":
 		city = request.form['cityname']
