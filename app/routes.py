@@ -1,13 +1,13 @@
-from app import myapp
+from app import myobj
 from flask import redirect, url_for, render_template, request, flash
 
 name = "Lisa"
 city_names = ["Paris", "London", "Rome", "Tahiti"]
-myapp_obj.config['SECRET_KEY'] = "1357"
+myobj.config['SECRET_KEY'] = "1357"
 
 
 
-@myapp.route("/", methods=["GET", "POST"])
+@myobj.route("/", methods=["GET", "POST"])
 def home():
 	if request.method == "POST":
 		city = request.form['cityname']
