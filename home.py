@@ -21,12 +21,9 @@ def home():
 		<li>'''+city_names[1]+'''</li>
 		<li>'''+city_names[2]+'''</li>
 		<li>'''+city_names[3]+'''</li>
-
 	</ul>
 	</body>
 	</html> '''
-
-def loop_
 	
 if __name__ == "__main__":
 	app.run()
